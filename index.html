@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>game</title>
+        <link rel="stylesheet" href="index.css" />
+        <script defer src="bundle.js"></script>
+    </head>
+    <body>
+        <main class="main">
+            <div class="rating-board">
+                <button class="rating-board__close-btn">
+                    <img
+                        width="30px"
+                        height="30px"
+                        src="./images/closebtn.png"
+                        alt=""
+                    />
+                </button>
+                <div class="rating-board__title">Рейтинг игроков</div>
+                <div class="rating-board__content-wrapper">
+                    <div class="rating-board__header">
+                        <span class="rating-board__header-item">Место</span>
+                        <span class="rating-board__header-item"
+                            >Имя Фамилия</span
+                        >
+                        <span class="rating-board__header-item">Опыт</span>
+                    </div>
+                    <div class="rating-board__items"></div>
+                </div>
+            </div>
+
+            <canvas id="canvas"></canvas>
+            <div class="buttons">
+                <div class="slider">
+                    <div class="btn slider__arrow slider__arrow_left"></div>
+                    <div class="slider__window">
+                        <div class="slider__track"></div>
+                    </div>
+                    <div class="btn slider__arrow slider__arrow_right"></div>
+                </div>
+                <button class="btn chat"></button>
+                <button class="btn go">
+                    <img src="./images/univtext.png" alt="" />
+                </button>
+                <button class="btn mail"></button>
+                <button class="btn rating">
+                    <img width="60px" src="./images/123.png" alt="" />
+                </button>
+            </div>
+        </main>
+    </body>
+</html>
